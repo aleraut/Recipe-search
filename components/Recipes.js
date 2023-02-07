@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, Button, TextInput, FlatList, ActivityIndicator, Image } from 'react-native';
 
-export default function Recipies() {
+export default function Recipes() {
     const [data, setData] = useState([]);
     const [keyword, setKeyword] = useState('');
     const [loading, setLoading] = useState(false);
